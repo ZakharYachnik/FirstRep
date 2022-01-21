@@ -6,8 +6,8 @@ public class Git {
 
         MyClass obj = new MyClass();
 
-        obj.setPrivet("Привет, Сергей!");
-        String text = "Приветствие: " + obj.getPrivet();
+        obj.setPrivet("Проверяем pull request");
+        String text = "Проверка: " + obj.getPrivet();
 
         JOptionPane.showMessageDialog(null, text);
     }
